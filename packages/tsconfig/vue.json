@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Vue App",
+  "extends": "./vite.json",
+  "compilerOptions": {
+    "types": ["vue/ref-macros"],
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  }
+}

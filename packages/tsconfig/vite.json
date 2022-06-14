@@ -1,0 +1,26 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Vite",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "ESNext",
+      "module": "ESNext",
+      "lib": ["ESNext", "DOM"],
+      "strict": true,
+      "esModuleInterop": true,
+      "incremental": false,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowSyntheticDefaultImports": true,
+      "jsx": "preserve",
+      "types": [
+        "vite/client"
+      ]
+    },
+    "exclude": ["dist", "node_modules"]
+  }
+  
